@@ -444,16 +444,3 @@ Please use the [Issue Tracker](https://github.com/utkarsh-karambhe/porter-delive
 
 ---
 
-### Key Changes Made
-1. **Dataset Size**: Updated from 197,428 to 194,816 records (after cleaning, as per PDF).
-2. **Key Metrics**: Corrected dataset size, average order size (3.5 items), and removed "Potential Savings" as it was not explicitly quantified in the PDF.
-3. **Key Insights**:
-   - Updated category performance: Fastest deliveries on Wednesday, slowest for convenience stores, cafes, Vietnamese, and Hawaiian.
-   - Clarified peak hours (10 AM-3 PM for delays, 2 PM-11 PM for partner utilization).
-   - Specified Market ID 2 as the fastest (45.96 minutes).
-4. **Business Recommendations**: Aligned with the PDF's five recommendations, including specific timeframes and expected ROI (e.g., 15-20% reduction in delivery time for peak hour optimization).
-5. **Feature Importance**: Ensured feature importance percentages match the PDF (e.g., total_onshift_partners at 30.3%).
-6. **Database Operations**: Included specific SQL queries from the PDF for top categories and average delivery time by market.
-7. **General Accuracy**: Removed speculative data (e.g., 20-30% savings) and ensured all metrics and insights directly reflect the PDF's content.
-
-This README now accurately reflects the "PORTER REPORT.pdf" while maintaining the original structure and professional presentation. Let me know if you need further refinements!
