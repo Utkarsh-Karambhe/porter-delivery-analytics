@@ -310,7 +310,7 @@ Mean Absolute Error: 12.3 minutes
 ![Performance Analytics](dashboards/assets/performance_analytics.png)
 
 ### 🤖 ML Model Results
-![ML Model Results](dashboards/assets/ml_model_results.png)
+![ML Model Results](dashboards/assets/ml_model_result.png)
 
 ## 🔧 Installation
 
