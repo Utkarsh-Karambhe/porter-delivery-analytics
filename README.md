@@ -412,10 +412,6 @@ We welcome contributions! Please follow these guidelines:
 ### 🐛 Bug Reports
 Please use the [Issue Tracker](https://github.com/utkarsh-karambhe/porter-delivery-analytics/issues) to report bugs.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **Porter Team** for operational data insights
@@ -425,7 +421,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 **Utkarsh Karambhe**  
-📧 Email: [utkarsh.karambhe@email.com](mailto:utkarshkarambhe@email.com)  
+📧 Email: [utkarshkarambhe@email.com](mailto:utkarshkarambhe@email.com)  
 🔗 LinkedIn: [linkedin.com/in/utkarsh-karambhe](https://linkedin.com/in/utkarsh-karambhe)  
 🐙 GitHub: [github.com/utkarsh-karambhe](https://github.com/utkarsh-karambhe)
 
