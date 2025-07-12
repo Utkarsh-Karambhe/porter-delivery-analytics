@@ -397,7 +397,7 @@ Please use the [Issue Tracker](https://github.com/utkarsh-karambhe/porter-delive
 
 ### 🚀 Ready to Optimize Your Delivery Operations?
 
-[![View Dashboard](https://img.shields.io/badge/View_Dashboard-Live_Demo-blue?style=for-the-badge)](https://your-dashboard-url.com)
+[![View Dashboard](https://img.shields.io/badge/View_Dashboard-Live_Demo-blue?style=for-the-badge)](https://porter-delivery-analytics-5bdvzyqworf8af3rmxmgr9.streamlit.app/)
 [![Download Report](https://img.shields.io/badge/Download_Report-PDF-red?style=for-the-badge)](docs/porter_analytics_report.pdf)
 
 </div>
