@@ -1,7 +1,3 @@
-Below is the updated README.md file, incorporating accurate information from the provided "PORTER REPORT.pdf" document while maintaining the structure and style of the original README. I've corrected metrics, insights, and recommendations to align with the PDF, updated the dataset details, and ensured all references match the report's findings. The changes reflect the PDF's data, such as the dataset size, delivery times, partner utilization, and specific recommendations, while keeping the professional tone and format intact.
-
----
-
 # 🚛 Porter Delivery Analytics Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -52,7 +48,7 @@ Below is the updated README.md file, incorporating accurate information from the
 - **Data Engineering Pipeline** - Comprehensive data cleaning and preprocessing
 - **Machine Learning Model** - Random Forest Regressor for delivery time prediction
 - **Interactive Dashboard** - Real-time analytics with Streamlit
-- **Database Integration** - MySQL for scalable data storage
+- **Database Integration** - MySQL with Workbench for query execution
 - **Professional Visualizations** - Interactive charts using Plotly
 
 ### 📊 Business Features
@@ -84,7 +80,7 @@ Below is the updated README.md file, incorporating accurate information from the
 - **Plotly** - Interactive visualizations
 
 ### 🗄️ Database & Deployment
-- **MySQL 8.0+** - Database management
+- **MySQL 8.0+ with Workbench** - Database management and query execution
 - **Streamlit** - Web application framework
 - **Git** - Version control
 
@@ -97,7 +93,6 @@ matplotlib>=3.5.0
 seaborn>=0.11.0
 plotly>=5.0.0
 streamlit>=1.28.0
-mysql-connector-python>=8.0.0
 ```
 
 ## 📁 Project Structure
@@ -140,17 +135,12 @@ cd porter-delivery-analytics
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Set Up Database
-```bash
-mysql -u username -p < database/porter_db.sql
-```
-
-### 4️⃣ Run the Dashboard
+### 3️⃣ Run the Dashboard
 ```bash
 streamlit run dashboard/streamlit_app.py
 ```
 
-### 5️⃣ Access the Application
+### 4️⃣ Access the Application
 Open your browser and navigate to `http://localhost:8501`
 
 ## 📈 Dataset Information
@@ -206,12 +196,14 @@ Open your browser and navigate to `http://localhost:8501`
 - Cross-validation: 80/20 train-test split
 ```
 
-### 🗄️ Phase 4: Database Integration
+### 🗄️ Phase 4: Database Queries
 ```sql
--- Database operations
-CREATE DATABASE porter_db;
-LOAD DATA INFILE 'porter_cleaned.csv';
-CREATE INDEX idx_market_time ON deliveries(market_id, created_at);
+-- Queries executed in MySQL Workbench
+-- Example: Average delivery time by market
+SELECT market_id, AVG(delivery_duration_minute) as avg_time
+FROM deliveries
+GROUP BY market_id
+ORDER BY avg_time;
 ```
 
 ## 🤖 Machine Learning Model
@@ -316,7 +308,7 @@ Mean Absolute Error: 12.3 minutes
 
 ### 📋 Prerequisites
 - Python 3.8+
-- MySQL 8.0+
+- MySQL 8.0+ with Workbench
 - Git
 
 ### 🐍 Python Environment Setup
@@ -327,32 +319,6 @@ source porter_env/bin/activate  # On Windows: porter_env\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
-```
-
-### 🗄️ Database Setup
-```bash
-# Create database
-mysql -u root -p
-CREATE DATABASE porter_db;
-
-# Import schema
-mysql -u root -p porter_db < database/porter_db.sql
-```
-
-### ⚙️ Configuration
-```yaml
-# config.yaml
-database:
-  host: localhost
-  port: 3306
-  user: your_username
-  password: your_password
-  database: porter_db
-
-dashboard:
-  title: Porter Delivery Analytics
-  port: 8501
-  debug: false
 ```
 
 ## 📖 Usage
@@ -376,9 +342,9 @@ jupyter lab
 # 3. notebooks/3_machine_learning_prediction.ipynb
 ```
 
-### 🗄️ Database Operations
+### 🗄️ Database Queries
 ```sql
--- Query examples
+-- Query examples run in MySQL Workbench
 SELECT market_id, AVG(delivery_duration_minute) as avg_time
 FROM deliveries
 GROUP BY market_id
@@ -441,6 +407,5 @@ Please use the [Issue Tracker](https://github.com/utkarsh-karambhe/porter-delive
 <div align="center">
 <sub>Built with ❤️ by <a href="https://github.com/utkarsh-karambhe">Utkarsh Karambhe</a></sub>
 </div>
-
----
+```
 
