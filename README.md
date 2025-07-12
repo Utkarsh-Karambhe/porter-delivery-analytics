@@ -304,7 +304,7 @@ Mean Absolute Error: 12.3 minutes
 ## 📸 Screenshots
 
 ### 🖥️ Dashboard Overview
-![Dashboard Overview](visualizations/dashboard_overview.png)
+![Dashboard Overview](/Users/uk/Downloads/JOB DESCRIPTION /porter_delivery_analysis/dashboards/assets/dashboard_overview.png)
 
 ### 📊 Performance Analytics
 ![Performance Analytics](visualizations/performance_analytics.png)
