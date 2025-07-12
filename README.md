@@ -304,13 +304,13 @@ Mean Absolute Error: 12.3 minutes
 ## 📸 Screenshots
 
 ### 🖥️ Dashboard Overview
-![Dashboard Overview](/Users/uk/Downloads/JOB DESCRIPTION /porter_delivery_analysis/dashboards/assets/dashboard_overview.png)
+![Dashboard Overview](dashboards/assets/dashboard_overview.png)
 
 ### 📊 Performance Analytics
-![Performance Analytics](visualizations/performance_analytics.png)
+![Performance Analytics](dashboards/assets/performance_analytics.png)
 
 ### 🤖 ML Model Results
-![ML Model Results](visualizations/ml_model_results.png)
+![ML Model Results](dashboards/assets/ml_model_results.png)
 
 ## 🔧 Installation
 
@@ -436,8 +436,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### 🚀 Ready to Optimize Your Delivery Operations?
 
 [![View Dashboard](https://img.shields.io/badge/View_Dashboard-Live_Demo-blue?style=for-the-badge)](https://your-dashboard-url.com)
-[![Download Report](https://img.shields.io/badge/Download_Report-PDF-red?style=for-the-badge)](reports/porter_analytics_report.pdf)
-[![Contact Me](https://img.shields.io/badge/Contact_Me-Let's_Connect-green?style=for-the-badge)](mailto:utkarsh.karambhe@email.com)
+[![Download Report](https://img.shields.io/badge/Download_Report-PDF-red?style=for-the-badge)](docs/porter_analytics_report.pdf)
 
 </div>
 
